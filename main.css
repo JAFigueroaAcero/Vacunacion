@@ -1,0 +1,131 @@
+body{
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family:verdana;
+}    
+
+#header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.head_buttons{
+    float: right;
+    padding: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.pd2{
+    color: rgb(168, 168, 168);
+}
+.little{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.little li{
+    float: left;
+    padding: 5%;
+    color: #1013e7;
+    
+}
+img{
+    vertical-align:middle;
+}
+
+.sv{
+    display: inline-block;
+    color: #1013e7; 
+}
+p{
+    color: rgb(168, 168, 168);
+}
+h1{
+    color: #1013e7;
+}
+h2{
+    color: blue;
+}
+
+div{
+    border-radius: 2.5px;
+}
+
+.sect1{
+    position: absolute;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    z-index: 0;
+}
+.sect1 div{
+    width:50%;
+    float:left;
+    margin: 10px;
+}
+.texto{
+    text-align: left;
+}
+
+.head_buttons a {
+    display: block;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    text-decoration: none;
+}
+#active {
+    color: white;
+    background-color: #1013e7;
+    border-radius: 2.5px;
+}
+#main_name{
+    float: left;
+}
+.schedule{
+    position: absolute;
+    align-content: center;
+    z-index: 1;
+    left: 50px;
+    top: 470px;
+}
+.pd{
+    color: #1013e7;
+}
+.sub{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+.default tr td{
+    padding: 5px;
+}
+.sub li{
+    float:left;
+    padding: 10px;
+    padding-right: 20px;
+}
+.submit{
+    border: 0;
+    color: white;
+    background-color: #1013e7;
+    border-radius: 2.5px;
+    width: 100px;
+    height: 40px;
+}
+
+.v1{
+    position: relative;
+}
+li{
+    text-align: center;
+}
